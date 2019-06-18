@@ -17,17 +17,17 @@
 
 .jumbotron {
   background-color: white;
-  font-family: 'Concert One', sans-serif;
 }
 
 #spotlight {
   padding-top: 5%;
 }
 
-#spotlight h2 {
+.spotlight-title {
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
 
 h2 {
   text-align: center;

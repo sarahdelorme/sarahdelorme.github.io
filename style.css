@@ -82,15 +82,24 @@ h2 {
 #contact-container {
   display: flex;
   justify-content: space-evenly;
+  align-items:center;
 }
 
 #contact_button {
   padding: 2%;
+  margin: 5%;
   font-size: 1.5em;
   color: white;
   background-color: magenta;
   border: 1px solid magenta;
-  border-radius: 30%;
+  border-radius: 20px;
+  width: 40%;
+  text-align:center;
+
+}
+
+#contact_cutton a {
+  color: white;
 }
 
 .social-links {

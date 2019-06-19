@@ -21,6 +21,22 @@
   color: #11515a;
 }
 
+.nav-link a:hover {
+  animation-name: nav-color;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  text-decoration: none;
+  color: white;
+
+}
+
+ @keyframes nav-color {
+    100% {
+      background-color: #e7da57;
+      color: white;
+    }
+  }
+
 .jumbotron {
   background-color: white;
   padding-top:15%;

@@ -20,6 +20,8 @@
 .nav-link a {
   color: #11515a;
   padding:2%;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .nav-link a:hover {

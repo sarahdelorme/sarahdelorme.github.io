@@ -1,5 +1,7 @@
 .jumbotron {
   height: 100vh;
+  display: flex;
+  jusitfy-content:center;
 }
 
 #navbar {
@@ -42,7 +44,7 @@
 
 .jumbotron {
   background-color: white;
-  padding-top:15%;
+
 }
 
 #spotlight {

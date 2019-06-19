@@ -19,20 +19,21 @@
 
 .nav-link a {
   color: #11515a;
+  padding:2%;
 }
 
 .nav-link a:hover {
   animation-name: nav-color;
-  animation-duration: 500ms;
+  animation-duration: 800ms;
   animation-fill-mode: both;
   text-decoration: none;
-  color: white;
+  color: #11515a;
 
 }
 
  @keyframes nav-color {
     100% {
-      background-color: #e7da57;
+      background-color: #f27521;
       color: white;
     }
   }

@@ -105,7 +105,7 @@ h2 {
 #contact_button a {
   border: 1px solid white;
   border-radius: 5px;
-  background-image: linear-gradient(to right, red , yellow);
+  background-color:magenta;
   color: #343a40;
   padding:2%;
   letter-spacing: 1px;
@@ -115,7 +115,7 @@ h2 {
 #contact_button a:hover {
   animation-name: background-color;
   animation-duration: 500ms;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
   text-decoration: none;
   color: #343a40;
 }

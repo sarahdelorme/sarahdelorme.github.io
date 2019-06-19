@@ -1,5 +1,6 @@
 body {
   color:#494941;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .jumbotron {
@@ -50,7 +51,7 @@ section {
   padding:10px;
   border: 1px solid white;
   border-radius: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-link a:hover {
@@ -155,7 +156,7 @@ h2 {
   color: white;
   padding:2%;
   font-size: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #contact_button a:hover {

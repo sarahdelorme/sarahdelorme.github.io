@@ -106,7 +106,7 @@ h2 {
   border: 1px solid white;
   border-radius: 5px;
   background-image: linear-gradient(to right, red , yellow);
-  color: white;
+  color: #343a40;
   padding:2%;
   letter-spacing: 1px;
   font-size: 2em;
@@ -117,13 +117,13 @@ h2 {
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   text-decoration: none;
-  color: white;
+  color: #343a40;
 }
 
  @keyframes background-color {
     100% {
-      background-image: linear-gradient(to right, yellow , red);
-      color: white;
+      background-color: white;
+      color: #ED7B96;
     }
   }
 

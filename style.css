@@ -18,6 +18,10 @@ body {
 
 }
 
+#welcome-section {
+  padding-top:0%;
+}
+
 .display-4 {
   color:#494941;
   font-family: 'Quicksand', sans-serif;

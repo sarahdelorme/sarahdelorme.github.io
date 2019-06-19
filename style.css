@@ -23,6 +23,7 @@
 
 .jumbotron {
   background-color: white;
+  padding-top:15%;
 }
 
 #spotlight {
@@ -70,7 +71,6 @@ h2 {
 .project-tile {
   width: 300px;
   Height: 300px;
-  border: 1px solid gray;
   margin-top: 3%;
 }
 

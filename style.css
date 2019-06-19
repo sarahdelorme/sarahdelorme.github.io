@@ -92,6 +92,12 @@ h2 {
 
 }
 
+#contact_button {
+  padding-top:5%;
+  width:90%
+  text-align:center;
+}
+
 #contact_button a {
   color: white;
 }
@@ -99,9 +105,9 @@ h2 {
 #contact_button a {
   border: 1px solid white;
   border-radius: 5px;
-  background-color: #eeee;
-  color: #343a40;
-  padding: 2%;
+  background-image: linear-gradient(to right, red , yellow);
+  color: white;
+  padding:2%;
   letter-spacing: 1px;
   font-size: 2em;
 }
@@ -111,13 +117,13 @@ h2 {
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   text-decoration: none;
-  color: #343a40;
+  color: white;
 }
 
  @keyframes background-color {
     100% {
-      background-color: white;
-      color: #ED7B96;
+      background-image: linear-gradient(to right, yellow , red);
+      color: white;
     }
   }
 

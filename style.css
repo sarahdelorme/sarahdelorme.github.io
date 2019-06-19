@@ -120,7 +120,7 @@ h2 {
 
  @keyframes background-color {
     100% {
-      background-image: linear-gradient(to bottom right, #f3b673, #e7da57);
+      background-color: #e7da57;
       color: white;
     }
   }

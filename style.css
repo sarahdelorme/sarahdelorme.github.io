@@ -1,3 +1,7 @@
+body {
+  color:#494941;
+}
+
 .jumbotron {
   height: 100vh;
   display: flex;
@@ -14,9 +18,27 @@
 
 }
 
+.display-4 {
+  color:#494941;
+  font-family: 'Raleway', sans-serif;
+}
+
+.lead {
+  color:#494941;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  color:#494941;
+}
+
 .nav-link{
   display: inline-block;
 
+}
+
+section {
+  padding-top: 5%;
 }
 
 .nav-link a {
@@ -24,6 +46,7 @@
   padding:10px;
   border: 1px solid white;
   border-radius: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .nav-link a:hover {

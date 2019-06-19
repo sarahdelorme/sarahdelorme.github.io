@@ -54,7 +54,7 @@ h2 {
 }
 
 #project-container{
-  max-width: 700px;
+  max-width: 950px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -105,14 +105,37 @@ h2 {
 
 }
 
-#contact_cutton a {
+#contact_button a {
   color: white;
 }
 
-.social-links {
-  border: 1px solid magenta;
-  border-radius: 25%;
+#contact_button a {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #eeee;
+  color: #343a40;
   padding: 2%;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+#contact_button a:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  text-decoration: none;
+  color: #343a40;
+}
+
+ @keyframes background-color {
+    100% {
+      background-color: white;
+      color: #ED7B96;
+    }
+  }
+
+.social-links {
+  margin:5%;
 }
 
 footer {

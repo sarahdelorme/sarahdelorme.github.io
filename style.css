@@ -92,19 +92,6 @@ h2 {
 
 }
 
-#contact_button {
-  padding: 2%;
-  margin: 5%;
-  font-size: 1.5em;
-  color: white;
-  background-color: magenta;
-  border: 1px solid magenta;
-  border-radius: 20px;
-  width:30%;
-  text-align:center;
-
-}
-
 #contact_button a {
   color: white;
 }

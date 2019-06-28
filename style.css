@@ -124,6 +124,12 @@ h2 {
   justify-content: space-evenly;
 }
 
+.email {
+  font-size: 2em;
+  font-weight: bold;
+  text-align:center;
+}
+
 .project-tile {
   width: 300px;
   Height: 300px;

@@ -137,7 +137,7 @@ h2 {
   margin-top: 3%;
 }
 
-.project-tile  a:hover {
+.project-tile:hover {
   border: 1px solid #11515a;
 }
 

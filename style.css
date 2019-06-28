@@ -173,7 +173,8 @@ h2 {
 }
 
 #contact_button {
-  padding:10%;
+  padding-top:10%;
+  padding-bottom: 3%;
   width:90%;
   text-align:center;
 }

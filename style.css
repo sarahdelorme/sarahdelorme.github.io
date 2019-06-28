@@ -7,6 +7,10 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+#sarahpic {
+  margin-top:5%;
+}
+
 .jumbotron {
   height: 100vh;
   display: flex;

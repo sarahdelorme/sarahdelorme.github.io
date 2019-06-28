@@ -126,14 +126,14 @@ h2 {
 }
 
 .email {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align:center;
 }
 
 .project-tile {
-  width: 400px;
-  Height: 400px;
+  width: 406px;
+  Height: 406px;
   margin-top: 3%;
 }
 
@@ -161,10 +161,10 @@ h2 {
 
 }
 
-#email {
+#mail {
   text-align: center;
-  padding-bottom: 3%;
-  font-size:.5em;
+  padding-bottom:3%
+
 }
 
 #contact-container {

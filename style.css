@@ -27,10 +27,6 @@ body {
 
 }
 
-.nav-link {
-  display: inline-block;
-}
-
 #welcome-section {
   padding-top:0%;
 }
@@ -46,6 +42,11 @@ body {
 
 h2 {
   color:#494941;
+}
+
+.nav-link{
+  display: inline-block;
+
 }
 
 section {
@@ -213,4 +214,11 @@ h2 {
 footer {
   text-align: center;
   padding-top: 3%;
+}
+
+@media (max-width: 650px) {
+  #sarah-pic {
+    display: none;
+  }
+
 }

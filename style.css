@@ -44,11 +44,6 @@ h2 {
   color:#494941;
 }
 
-.nav-link{
-  display: inline-block;
-
-}
-
 section {
   padding-top: 5%;
 }
@@ -216,9 +211,12 @@ footer {
   padding-top: 3%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 375px) {
+  .jumbotron {
+    flex-direction: column;
+  }
   #sarah-pic {
     display: none;
   }
-  
+
 }

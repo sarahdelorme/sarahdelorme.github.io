@@ -219,7 +219,7 @@ footer {
   padding-top: 3%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #sarahpic {
     display: none;
   }

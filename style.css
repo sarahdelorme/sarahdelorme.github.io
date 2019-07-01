@@ -17,14 +17,19 @@ body {
   justify-content:center;
 }
 
-#navbar {
+.custom-nav {
+  width:100vw;
   position: fixed;
-  text-align: right;
-  width: 100%;
   background: white;
   padding-top:1%;
   padding-right: 3%;
+  justify-content:center;
+  padding-left:65vw;
 
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 #welcome-section {
@@ -53,7 +58,7 @@ section {
   padding-top: 5%;
 }
 
-.nav-link a {
+.nav-item .nav-link a {
   color: #11515a;
   padding:10px;
   border: 1px solid white;
@@ -61,7 +66,7 @@ section {
   font-family: 'Quicksand', sans-serif;
 }
 
-.nav-link a:hover {
+.nav-item .nav-link a:hover {
   animation-name: nav-color;
   animation-duration: 600ms;
   animation-fill-mode: both;
@@ -111,9 +116,7 @@ h2 {
 
 
 #projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
 }
 
 
@@ -216,9 +219,36 @@ footer {
   padding-top: 3%;
 }
 
-@media (max-width: 650px) {
-  #sarah-pic {
+@media (max-width: 375px) {
+  #sarahpic {
     display: none;
+  }
+
+  .custom-nav {
+    padding-left: unset;
+  }
+
+  #welcome-section {
+    text-align: center;
+    padding-top: 20vh;
+  }
+
+  #bio {
+    flex-direction:column;
+  }
+
+  h2 {
+    text-align:left;
+    margin-left:10%;
+  }
+
+  #flowerdance {
+    width:150px;
+  }
+
+  #contact-container {
+    flex-wrap: wrap;
+    justify-content:center;
   }
 
 }

@@ -32,6 +32,10 @@ body {
   border: none;
 }
 
+.navbar-nav {
+  padding-left:5%;
+}
+
 #welcome-section {
   padding-top:0%;
 }
